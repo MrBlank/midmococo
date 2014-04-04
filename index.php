@@ -4,7 +4,6 @@
 <head>
 	<meta charset="UTF-8" /> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 	<meta content="Midmococo" name="apple-mobile-web-app-title"/>
 	<meta property="og:image" content="http://midmococo.com/images/brand.png">
 	<meta property="og:url" content="http://midmococo.com">

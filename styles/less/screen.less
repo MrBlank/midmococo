@@ -58,7 +58,6 @@
 		@media @mq-mobile 	{ min-width: @min-width; }
 	}
 
-
 /* !Styles */
 	body {
 		font-size: 18px;
@@ -85,6 +84,9 @@
 		@media @mq-mobile {
 			max-width: 600px;
 		}
+	}
+	.ie #wrapper {
+		min-width: 960px; // Stops responsive for IE8 and lower
 	}
 	
 	header {
@@ -203,6 +205,7 @@
 				color: #222;
 				font-family: @header;
 				padding-bottom: .5em;
+				position: relative;
 								
 				&:hover,
 				&:focus {
@@ -355,8 +358,6 @@
 			}
 		}
 	}
-
-
 
 
 
