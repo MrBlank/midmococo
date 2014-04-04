@@ -1,0 +1,369 @@
+/*! SCREEN STYLES */
+/*--------------------------------------------------------------
+  
+	* Site:			Midmococo - http://midmococo.com
+	* Author:		Josh Nichols - http://www.joshnichols.com
+  
+--------------------------------------------------------------*/
+
+/* !Imports */
+	
+	/* Framework */
+	@import 'normalize-3.0.1.less';
+	@import 'mixers-2.0.less';
+	
+	/* Site styles */
+	@import 'fonts.less';
+	@import 'general.less';
+	@import 'bg.less';
+
+/* !Variables */
+	
+	/* Mixer Overrides */
+	@box-shadow: 		0px 2px 20px @dark-blue;	
+	
+	/* Colors */	
+	@red:				#B60117;
+	@red-2:				#E81F38;
+	@green:				#417505;
+	@blue:				#10519A;
+	@dark-blue:			#222542;
+	@caption:			#F2EE86;
+	
+	/* Fonts */ 
+	@header:		"komika-axis", "Helvetica Neue", Arial, sans-serif;
+	@text: 			"komika-text", "Helvetica Neue", Arial, sans-serif;
+	@mono:		 	"andale mono", "lucida console", monospace; 
+	
+	/* Font Weights */
+	@normal:		400;
+	@bold:			700;
+	
+	/* Paths */
+	@img-path: 		'../../images';
+	@font-path: 	'../fonts';	
+	
+	/* Measurements */
+	@max-width: 	50em; 
+	@min-width:		18.75em; // 300px, allows 10px margins on .center-block elements
+	
+	/* Media Break Points */
+	@mq-large:		~"screen and (min-width: 80em)";
+	@mq-medium: 	~"screen and (max-width: 65em)"; 
+	@mq-mobile: 	~"screen and (max-width: 55em)";
+	@mq-2x:			~"only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5)"; /* Retina screens */
+	 
+	/* Set center-block widths at breakpoints */
+	.center-block {
+		@media @mq-mobile 	{ min-width: @min-width; }
+	}
+
+
+/* !Styles */
+	body {
+		font-size: 18px;
+		background-position: left top;
+		background-color: #fff;
+		background-attachment: fixed;
+		background-repeat: repeat;
+		
+		@media @mq-large {
+			font-size: 22px;
+		}
+		@media @mq-mobile {
+			font-size: 16px;
+		}
+	}
+	.backgroundsize body {
+		background-size: cover;
+	}
+	
+	#wrapper {
+		.center-block();
+		//border: dotted 1px red;
+		
+		@media @mq-mobile {
+			max-width: 600px;
+		}
+	}
+	
+	header {
+		margin-left: -4em;
+		
+		.text {
+			.img-replace();
+			height: 1px;
+		}
+		
+		@media @mq-medium {
+			margin-left: 0em;
+			max-width: 550px;
+		}
+		@media @mq-mobile {
+			.center-block();
+			max-width: 450px;
+		}
+	}
+	
+	main {
+		position: relative;
+		margin-top: -2em;
+		
+		@media @mq-mobile {
+			margin-top: 0;
+		}
+	}
+	
+	
+	
+	
+	#meetings,
+	#about,
+	#tweets {
+		position: relative;
+		border: solid 4px #222;
+		padding: 2em 1.5em 1.5em 1.5em;
+		.box-sizing();
+		color: #fff;
+		.font-smoothing();
+		margin: 0 1em 3em 1em;
+		.box-shadow();
+		.text-shadow(1px 1px 2px #000000);
+		background-image: url('@{img-path}/halftone.png');
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-size: 600px 400px;
+		width: 55%;
+		float: right;
+		.clear();
+		.clearfix();
+		
+		
+		@media @mq-mobile {
+			width: auto;
+			float: none;
+			padding: 2em 1em 1em 1em;
+			border-width: 3px;
+		}
+		
+		*:last-child {
+			margin-bottom: 1px;
+		}
+		
+		a {
+			color: #fff;
+		}
+	}
+	
+	
+	
+	section {
+		
+		h1 {
+			font-family: @header;
+			font-size: 1.2em;
+			color: #fff;
+			letter-spacing: .05em;
+		}
+		.caption {
+			position: absolute;
+			top: -1em;
+			left: -1em;
+		}
+	}
+	
+	
+	
+	.caption {
+		border: solid 2px #222;
+		background-color: @caption;
+		padding: .25em .75em;
+		color: #222;
+		font-weight: @bold;
+		font-size: .8em;
+		display: inline-block;
+		.text-shadow(0px 0px 0px transparent);
+	}
+	
+	
+	
+	
+	
+	#meetings {
+		background-color: @green;
+		
+		.directions {
+			margin-top: 2em;
+			position: relative;
+			
+			a {
+				.caption();
+				padding-right: 90px;
+				float: right;
+				color: #222;
+				font-family: @header;
+				padding-bottom: .5em;
+								
+				&:hover,
+				&:focus {
+					background-color: @red-2;
+				}
+				
+				@media @mq-mobile {
+					padding-right: 75px;					
+				}
+			}
+			
+			a:after {
+				content: '';
+				background-image: url('@{img-path}/map-icon.png');
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: 110px 100px;
+				position: absolute;
+				right: -20px;
+				top: -38px;
+				width: 110px;
+				height: 100px;
+				
+				@media @mq-2x {
+					background-image: url('@{img-path}/map-icon@2x.png');
+				}
+				
+				@media @mq-large {
+					top: -30px;
+				}
+				@media @mq-mobile {
+					top: -28px;
+					right: -15px;
+					background-size: 88px 80px;
+					width: 88px;
+					height: 80px;
+				}
+			}
+		}
+	}	
+	
+	
+	
+	
+	#about {
+		background-color: @red;
+		position: absolute;
+		top: 5em;
+		left: 0;
+		width: 37%;
+		
+		@media @mq-mobile {
+			position: relative;
+			top: 0;
+			width: auto;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	#tweets {
+		background-color: @blue;
+		margin-bottom: .5em;
+		
+		.caption {
+			padding-left: 65px;
+			left: 0;
+			
+			&:after {
+				content: '';
+				background-image: url('@{img-path}/twit-icon.png');
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: 90px 90px;
+				position: absolute;
+				left: -30px;
+				top: -35px;
+				width: 90px;
+				height: 90px;
+				
+				@media @mq-2x {
+					background-image: url('@{img-path}/twit-icon@2x.png');
+				}
+			}
+			@media @mq-large {
+				
+				&:after {
+					top: -30px;
+				}
+			}
+			@media @mq-mobile {
+				padding-left: 45px;
+				
+				&:after {
+					background-size: 60px 60px;
+					width: 60px;
+					height: 60px;
+					left: -20px;
+					top: -20px;
+				}
+			}
+			
+		}
+		
+		iframe {
+			width: 800px!important; // weird bug with mobile. Need to set width really wide so it doesn't poke out like with width set to 100%
+			min-width: 100px!important;
+			
+			@media @mq-large {
+				height: 1000px!important;
+			}
+			@media @mq-mobile {
+				height: 500px!important;
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	footer {
+		text-align: center;
+		.text-shadow(1px 1px  5px #000000);
+		color: @caption;
+		font-size: .8em;
+		line-height: 1.2;
+		.font-smoothing();
+		margin-bottom: 3em;
+		width: 59%;
+		float: right;
+		.clear();
+		
+		@media @mq-mobile {
+			float: none;
+			width: auto;
+		}
+		
+		
+		a {
+			color: @caption;
+			border-bottom-color: @caption;
+			
+			&:hover,
+			&:focus {
+				color: @caption;
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
