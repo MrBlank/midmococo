@@ -59,7 +59,7 @@
 			
 			<footer>
 				<p>&#169; <?php date_default_timezone_set('America/Los_Angeles'); echo date('Y'); ?>, Mid-Missouri Comics Collective.<br/> Designed and built by <a href="http://www.joshnichols.com">Josh Nichols</a></p>
-				<p>Background images from the <a href="http://digitalcomicmuseum.com/">Digital Comics Museum</a>.<br/> <a href="#" onClick="window.location.reload();return false;">Reload the page to see more</a>.</p>
+				<p>Background images from the <a href="http://digitalcomicmuseum.com/">Digital Comics Museum</a>.<br/> <a href="#" onClick="window.location.reload();return false;">Reload the page to see more</a>. <a href="http://www.pinterest.com/thejoshnichols/midmococo-backgrounds/">See them all</a>.</p>
 			</footer>
 			
 		</main>
