@@ -2,6 +2,17 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16895",
 "files": {
+	"\/icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16118,
+		"inputAbbreviatedPath": "\/icon.png",
+		"outputAbbreviatedPath": "\/icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -35,28 +46,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/images\/bg\/bg-captain-m.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 321596,
-		"inputAbbreviatedPath": "\/images\/bg\/bg-captain-m.jpg",
-		"outputAbbreviatedPath": "\/images\/bg\/bg-captain-m.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/images\/bg\/bg-captain-s.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 145602,
-		"inputAbbreviatedPath": "\/images\/bg\/bg-captain-s.jpg",
-		"outputAbbreviatedPath": "\/images\/bg\/bg-captain-s.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/images\/bg\/bg-cowboy-m.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -79,6 +68,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/bg\/bg-horror-m.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 258186,
+		"inputAbbreviatedPath": "\/images\/bg\/bg-horror-m.jpg",
+		"outputAbbreviatedPath": "\/images\/bg\/bg-horror-m.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/bg\/bg-horror-s.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169338,
+		"inputAbbreviatedPath": "\/images\/bg\/bg-horror-s.jpg",
+		"outputAbbreviatedPath": "\/images\/bg\/bg-horror-s.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/bg\/bg-mars-m.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -97,6 +108,28 @@
 		"initialSize": 152917,
 		"inputAbbreviatedPath": "\/images\/bg\/bg-mars-s.jpg",
 		"outputAbbreviatedPath": "\/images\/bg\/bg-mars-s.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/bg\/bg-nutty-m.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 249691,
+		"inputAbbreviatedPath": "\/images\/bg\/bg-nutty-m.jpg",
+		"outputAbbreviatedPath": "\/images\/bg\/bg-nutty-m.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/bg\/bg-nutty-s.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160295,
+		"inputAbbreviatedPath": "\/images\/bg\/bg-nutty-s.jpg",
+		"outputAbbreviatedPath": "\/images\/bg\/bg-nutty-s.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1

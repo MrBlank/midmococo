@@ -3,7 +3,7 @@
 <!--[if gt IE 8]><!--><html lang="en" class="no-js"><!--<![endif]-->
 <head>
 	<meta charset="UTF-8" /> 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta content="Midmococo" name="apple-mobile-web-app-title"/>
 	<meta property="og:image" content="http://midmococo.com/images/brand.png">
 	<meta property="og:url" content="http://midmococo.com">
@@ -19,11 +19,14 @@
 		
 	<title>Midmococo // Mid-Missouri Comics Collective</title>
 </head>
-<?php $random_number = rand(1,7); ?>
+<?php $random_number = rand(1,8); ?>
 <body class="bg-<?php echo $random_number; ?>">
 	<div id="wrapper">
 		<header>
-			<img src="images/brand.png" data-2x="images/brand@2x.png" alt="Midmococo: Mid-Missouri Comics Collective" width="597" height="405">
+			<img class="brand" data-src="images/brand.png" data-2x="images/brand@2x.png" alt="Midmococo: Mid-Missouri Comics Collective">
+			<noscript>
+				<img src="images/brand.png" alt="Midmococo: Mid-Missouri Comics Collective" width="597" height="405">
+			</noscript>
 			<div class="text">
 				<h1>Midmococo</h1>
 				<h2>Mid-Missouri Comics Collective</h2>

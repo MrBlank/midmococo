@@ -50,7 +50,7 @@
 	/* Media Break Points */
 	@mq-large:		~"screen and (min-width: 80em)";
 	@mq-medium: 	~"screen and (max-width: 65em)"; 
-	@mq-mobile: 	~"screen and (max-width: 55em)";
+	@mq-mobile: 	~"screen and (max-width: 48em)"; // 768px iPad
 	@mq-2x:			~"only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5)"; /* Retina screens */
 	 
 	/* Set center-block widths at breakpoints */
@@ -75,6 +75,12 @@
 	}
 	.backgroundsize body {
 		background-size: cover;
+		
+		@media @mq-mobile {
+			background-size: auto;
+			background-attachment: scroll;
+			//background-position: center top;
+		}
 	}
 	
 	#wrapper {
@@ -105,6 +111,10 @@
 			.center-block();
 			max-width: 450px;
 		}
+	}
+	
+	.no-js .brand { 
+		display: none;
 	}
 	
 	main {
@@ -225,7 +235,7 @@
 				background-size: 110px 100px;
 				position: absolute;
 				right: -20px;
-				top: -38px;
+				top: -40px;
 				width: 110px;
 				height: 100px;
 				
@@ -234,10 +244,10 @@
 				}
 				
 				@media @mq-large {
-					top: -30px;
+					top: -34px;
 				}
 				@media @mq-mobile {
-					top: -28px;
+					top: -32px;
 					right: -15px;
 					background-size: 88px 80px;
 					width: 88px;

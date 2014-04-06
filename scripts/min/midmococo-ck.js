@@ -1,1 +1,1 @@
-if(window.devicePixelRatio>=1.2)for(var images=document.getElementsByTagName("img"),i=0;i<images.length;i++){var attr=images[i].getAttribute("data-2x");attr&&(images[i].src=attr)}
+for(var elems=document.getElementsByTagName("*"),i=0;i<elems.length;i++){var attr=elems[i].getAttribute(window.devicePixelRatio>=1.2?"data-2x":"data-src");attr&&"IMG"==elems[i].tagName?elems[i].src=attr:attr&&(elems[i].style.cssText+="background-image: url("+attr+")")}
