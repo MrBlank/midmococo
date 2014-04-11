@@ -27,6 +27,8 @@
 	@red-2:				#E81F38;
 	@green:				#417505;
 	@blue:				#10519A;
+	@orange: 			#e28611;
+	@purple: 			#540a8a;
 	@dark-blue:			#222542;
 	@caption:			#F2EE86;
 	
@@ -113,7 +115,7 @@
 		}
 	}
 	
-	.no-js .brand { 
+	.no-js .hide-2x { 
 		display: none;
 	}
 	
@@ -131,7 +133,8 @@
 	
 	#meetings,
 	#about,
-	#tweets {
+	#tweets,
+	#event {
 		position: relative;
 		border: solid 4px #222;
 		padding: 2em 1.5em 1.5em 1.5em;
@@ -149,6 +152,7 @@
 		float: right;
 		.clear();
 		.clearfix();
+		background-color: #333;
 		
 		
 		@media @mq-mobile {
@@ -197,6 +201,77 @@
 		.text-shadow(0px 0px 0px transparent);
 	}
 	
+	
+	
+	#event {
+		background-color: @purple;
+		
+		#mwgf {
+			text-align: center;	
+			padding: 0 1.5em;
+					
+			a {
+				border: none;
+				
+				&:hover,
+				&:focus {
+					background-color: transparent;
+					opacity: .6;
+				}
+			}
+		}
+		.register {
+			margin-top: 2em;
+			position: relative;
+			
+			a {
+				.caption();
+				padding-right: 45px;
+				float: right;
+				color: #222;
+				font-family: @header;
+				padding-bottom: .5em;
+				position: relative;
+								
+				&:hover,
+				&:focus {
+					background-color: @red-2;
+				}
+				
+				@media @mq-mobile {
+					padding-right: 35px;					
+				}
+			}
+			
+			a:after {
+				content: '';
+				background-image: url('@{img-path}/exclaim.png');
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: 67px 100px;
+				position: absolute;
+				right: -20px;
+				top: -40px;
+				width: 67px;
+				height: 100px;
+				
+				@media @mq-2x {
+					background-image: url('@{img-path}/exclaim@2x.png');
+				}
+				
+				@media @mq-large {
+					top: -34px;
+				}
+				@media @mq-mobile {
+					top: -32px;
+					right: -15px;
+					background-size: 54px 80px;
+					width: 54px;
+					height: 80px;
+				}
+			}
+		}
+	}
 	
 	
 	

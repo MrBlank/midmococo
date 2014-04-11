@@ -23,9 +23,9 @@
 <body class="bg-<?php echo $random_number; ?>">
 	<div id="wrapper">
 		<header>
-			<img class="brand" data-src="images/brand.png" data-2x="images/brand@2x.png" alt="Midmococo: Mid-Missouri Comics Collective">
+			<img class="hide-2x" data-src="images/brand.png" data-2x="images/brand@2x.png" alt="Midmococo: Mid-Missouri Comics Collective">
 			<noscript>
-				<img src="images/brand.png" alt="Midmococo: Mid-Missouri Comics Collective" width="597" height="405">
+				<img src="images/brand.png" alt="Midmococo: Mid-Missouri Comics Collective" width="597" height="405"/>
 			</noscript>
 			<div class="text">
 				<h1>Midmococo</h1>
@@ -33,6 +33,21 @@
 			</div>
 		</header>
 		<main>
+			
+			<section id="event">
+				<div class="caption">SAVE THE DATE&#160;&#8230;</div>
+				<p id="mwgf">
+					<a href="http://midwestgeekfest.com/">
+						<img class="hide-2x" data-src="images/mwgf-logo.png" data-2x="images//mwgf-logo@2x.png" alt="Midwest Geekfest">
+						<noscript>
+							<img src="images//mwgf-logo.png" alt="Midwest Geekfest"/>
+						</noscript>
+					</a>
+				</p>
+				<h1>COMICS, GAMES, COSPLAY</h1>
+				<p>We will have a table at this year's <a href="http://midwestgeekfest.com/">Midwest Geekfest</a>, Saturday April 26. Come out and talk comics with us. Registration is free!</p>
+				<div class="register"><a href="http://midwestgeekfest.com/event-registration/">REGISTER FOR FREE</a></div>
+			</section>
 			
 			<section id="meetings">
 				<div class="caption">IN THE NEXT ISSUE&#160;&#8230;</div>
