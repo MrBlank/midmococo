@@ -34,6 +34,7 @@
 		</header>
 		<main>
 			
+			<?php /*
 			<section id="event">
 				<div class="caption">SAVE THE DATE&#160;&#8230;</div>
 				<p id="mwgf">
@@ -45,9 +46,10 @@
 					</a>
 				</p>
 				<h1>COMICS, GAMES, COSPLAY</h1>
-				<p>We will have a table at this year's <a href="http://midwestgeekfest.com/">Midwest Geekfest</a>, Saturday April 26. Come out and talk comics with us. Registration is free!</p>
+				<p>We will have a table at this year&#8217;s <a href="http://midwestgeekfest.com/">Midwest Geekfest</a>, Saturday April 26. Come out and talk comics with us. Registration is free!</p>
 				<div class="register"><a href="http://midwestgeekfest.com/event-registration/">REGISTER FOR FREE</a></div>
 			</section>
+			*/ ?>
 			
 			<section id="meetings">
 				<div class="caption">IN THE NEXT ISSUE&#160;&#8230;</div>
