@@ -13,7 +13,7 @@
 	<link href="images/apple-touch-icon.png" rel="apple-touch-icon"/>
 	<link href="images/favicon.ico" rel="icon"/>
 	
-	<link href="styles/css/screen.css" rel="stylesheet" type="text/css" />
+	<link href="styles/css/screen.css?=2014-09-26" rel="stylesheet" type="text/css" />
 	
 	<script src="scripts/min/modernizr.js"></script>
 		
@@ -34,22 +34,28 @@
 		</header>
 		<main>
 			
-			<?php /*
+			<section id="book">
+			    <div class="caption">HOT OFF THE PRESS&#160;&#8230;</div>
+			    <p id="miss-avatar">
+			        <a href="http://www.misterwinterman.com/missmizzou/">
+			            <img class="avatar" src="images/miss-mizzou-avatar.png" alt="Miss Mizzou avatar" />
+			        </a>
+			    </p>
+			    <h1>MISS MIZZOU</h1>
+			    <h2>A life Beyond Comics</h2>
+			    <p>In 1952 cartoonist Milton Caniff created an iconic blond in a trench coat named Miss Mizzou. Read the forgotten history of this comic strip character and see how she created delight and controversy beyond the comics page. Book by local creator <a href="https://twitter.com/misterwinterman">J.B. Winter</a>.</p>
+                <div class="register"><a href="http://www.misterwinterman.com/missmizzou/">FIND OUT MORE ABOUT THE BOOK</a></div>
+			</section>
+			
 			<section id="event">
 				<div class="caption">SAVE THE DATE&#160;&#8230;</div>
-				<p id="mwgf">
-					<a href="http://midwestgeekfest.com/">
-						<img class="hide-2x" data-src="images/mwgf-logo.png" data-2x="images//mwgf-logo@2x.png" alt="Midwest Geekfest">
-						<noscript>
-							<img src="images//mwgf-logo.png" alt="Midwest Geekfest"/>
-						</noscript>
-					</a>
+				<p class="banner">
+				    <img src="images/24hourcomic2014.jpg" alt="24 Hour Comic Day"/>
 				</p>
-				<h1>COMICS, GAMES, COSPLAY</h1>
-				<p>We will have a table at this year&#8217;s <a href="http://midwestgeekfest.com/">Midwest Geekfest</a>, Saturday April 26. Come out and talk comics with us. Registration is free!</p>
-				<div class="register"><a href="http://midwestgeekfest.com/event-registration/">REGISTER FOR FREE</a></div>
+				<h1>24 HOUR COMICS DAY</h1>
+				<p>We have an official location for <a href="http://www.24hourcomicsday.com/take-the-challenge/">24 Hour Comics Day</a>. It will be Oct. 4–5 from noon–noon at Carfax in Columbia, Mo. Register with <a href="https://twitter.com/scottziolko">@scottziolko</a>. It&#8217;s free!</p>
+				<div class="register"><a href="mailto:saziolko@gmail.com?subject=Register me for 24 Hour Comic Day at Carfax">REGISTER FOR FREE</a></div>
 			</section>
-			*/ ?>
 			
 			<section id="meetings">
 				<div class="caption">IN THE NEXT ISSUE&#160;&#8230;</div>
