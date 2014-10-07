@@ -716,7 +716,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"externalServerPreviewPathAddition": "\/Dropbox sites link\/Midmococo 2.0\/www\/",
+	"externalServerPreviewPathAddition": "\/Dropbox sites link\/Midmococo 2.0\/www",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",

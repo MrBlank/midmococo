@@ -47,16 +47,6 @@
                 <div class="register"><a href="http://www.misterwinterman.com/missmizzou/">FIND OUT MORE ABOUT THE BOOK</a></div>
 			</section>
 			
-			<section id="event">
-				<div class="caption">SAVE THE DATE&#160;&#8230;</div>
-				<p class="banner">
-				    <img src="images/24hourcomic2014.jpg" alt="24 Hour Comic Day"/>
-				</p>
-				<h1>24 HOUR COMICS DAY</h1>
-				<p>We have an official location for <a href="http://www.24hourcomicsday.com/take-the-challenge/">24 Hour Comics Day</a>. It will be Oct. 4–5 from noon–noon at Carfax in Columbia, Mo. Register with <a href="https://twitter.com/scottziolko">@scottziolko</a>. It&#8217;s free!</p>
-				<div class="register"><a href="mailto:saziolko@gmail.com?subject=Register me for 24 Hour Comic Day at Carfax">REGISTER FOR FREE</a></div>
-			</section>
-			
 			<section id="meetings">
 				<div class="caption">IN THE NEXT ISSUE&#160;&#8230;</div>
 				<h1>WEEKLY MEETINGS</h1>
