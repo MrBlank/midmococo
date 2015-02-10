@@ -50,9 +50,12 @@
 			<section id="meetings">
 				<div class="caption">IN THE NEXT ISSUE&#160;&#8230;</div>
 				<h1>WEEKLY MEETINGS</h1>
+				<p>We are taking a break from the weekly meetings until spring. We will post an update here later.</p>
+				<!--
 				<p>We have a weekly meeting Monday nights, 8:30pm at <a href="https://plus.google.com/108745546140937608467/about?gl=us&hl=en">Eastside Tavern</a>, downtown Columbia. This is during Eastside’s <a href="https://www.facebook.com/groups/Drink.and.Draw.Columbia/">Drink and Draw</a>/Geek Night.</p> 
 				<p>Bring your stuff and talk comics!</p>
 				<div class="directions"><a href="https://www.google.com/maps/place/Eastside+Tavern/@38.951372,-92.325822,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x4c09255f5d5e3b93?hl=en">DIRECTIONS</a></div>
+				-->
 			</section>
 			
 			<section id="about">
