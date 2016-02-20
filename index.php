@@ -33,29 +33,16 @@
 			</div>
 		</header>
 		<main>
-			
-			<section id="book">
-			    <div class="caption">HOT OFF THE PRESS&#160;&#8230;</div>
-			    <p id="miss-avatar">
-			        <a href="http://www.misterwinterman.com/missmizzou/">
-			            <img class="avatar" src="images/miss-mizzou-avatar.png" alt="Miss Mizzou avatar" />
-			        </a>
-			    </p>
-			    <h1>MISS MIZZOU</h1>
-			    <h2>A life Beyond Comics</h2>
-			    <p>In 1952 cartoonist Milton Caniff created an iconic blond in a trench coat named Miss Mizzou. Read the forgotten history of this comic strip character and see how she created delight and controversy beyond the comics page. Book by local creator <a href="https://twitter.com/misterwinterman">J.B. Winter</a>.</p>
-                <div class="register"><a href="http://www.misterwinterman.com/missmizzou/">FIND OUT MORE ABOUT THE BOOK</a></div>
-			</section>
-			
+					
 			<section id="meetings">
 				<div class="caption">IN THE NEXT ISSUE&#160;&#8230;</div>
 				<h1>WEEKLY MEETINGS</h1>
-				<p>We are taking a break from the weekly meetings until spring. We will post an update here later.</p>
-				<!--
+				<p>We are taking a break from the weekly meetings. We will post an update here later.</p>
+				<?php /*
 				<p>We have a weekly meeting Monday nights, 8:30pm at <a href="https://plus.google.com/108745546140937608467/about?gl=us&hl=en">Eastside Tavern</a>, downtown Columbia. This is during Eastside’s <a href="https://www.facebook.com/groups/Drink.and.Draw.Columbia/">Drink and Draw</a>/Geek Night.</p> 
 				<p>Bring your stuff and talk comics!</p>
 				<div class="directions"><a href="https://www.google.com/maps/place/Eastside+Tavern/@38.951372,-92.325822,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x4c09255f5d5e3b93?hl=en">DIRECTIONS</a></div>
-				-->
+				*/?>
 			</section>
 			
 			<section id="about">

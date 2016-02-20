@@ -134,8 +134,7 @@
 	#meetings,
 	#about,
 	#tweets,
-	#event,
-	#book {
+	#event {
 		position: relative;
 		border: solid 4px #222;
 		padding: 2em 1.5em 1.5em 1.5em;
@@ -200,84 +199,6 @@
 		font-size: .8em;
 		display: inline-block;
 		.text-shadow(0px 0px 0px transparent);
-	}
-	
-	#book {	   
-        
-    	#miss-avatar {
-        	
-        	a:hover img,
-        	a:focus img {
-            	opacity: .6;
-        	}
-        	
-        	img {
-            	float: right;
-            	width: 50%;
-            	margin-top: -.5em;
-        	}
-    	}
-    	h1 {
-        	margin-bottom: .25em;
-        	color: #F8B228;
-    	}
-    	h2 {
-        	color: #F8B228;
-        	font-size: 1.3em;
-    	}
-    	.register {
-			margin-top: 2em;
-			position: relative;
-			
-			a {
-				.caption();
-				padding-right: 45px;
-				float: right;
-				color: #222;
-				font-family: @header;
-				padding-bottom: .5em;
-				position: relative;
-								
-				&:hover,
-				&:focus {
-					background-color: @red-2;
-				}
-				
-				@media @mq-mobile {
-					padding-right: 35px;					
-				}
-			}
-			
-			a:after {
-				content: '';
-				background-image: url('@{img-path}/exclaim.png');
-				background-repeat: no-repeat;
-				background-position: center center;
-				background-size: 67px 100px;
-				position: absolute;
-				right: -20px;
-				top: -40px;
-				width: 67px;
-				height: 100px;
-				
-				@media @mq-2x {
-					background-image: url('@{img-path}/exclaim@2x.png');
-				}
-				
-				@media @mq-large {
-					top: -34px;
-				}
-				@media @mq-mobile {
-					top: -32px;
-					right: -15px;
-					background-size: 54px 80px;
-					width: 54px;
-					height: 80px;
-				}
-			}
-		}
-    	
-    	
 	}
 	
 	#event {
@@ -475,7 +396,7 @@
 		}
 		
 		iframe {
-			width: 800px!important; // weird bug with mobile. Need to set width really wide so it doesn't poke out like with width set to 100%
+			width: 800px!important; // weird bug with mobile. Need to set width really wide so it doesnt poke out like with width set to 100%
 			min-width: 100px!important;
 			
 			@media @mq-large {
